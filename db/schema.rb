@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2019_11_07_204203) do
   create_table "institutions", force: :cascade do |t|
     t.string "ipeds_id", null: false
     t.string "name"
+    t.string "alias"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

@@ -11,7 +11,8 @@ namespace :institutions_data do
       institution_data = institution_row.to_h
       Institution.create! \
         ipeds_id: institution_data['unitid'],
-        name: institution_data['institution name']
+        name: institution_data['institution name'],
+        alias: institution_data['institution name alias']
     end
   end
 end

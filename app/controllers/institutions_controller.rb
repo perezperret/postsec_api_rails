@@ -16,7 +16,7 @@ class InstitutionsController < ApplicationController
   def institutions
     query = params[:query]
     result = if query.present?
-               Institution.where 'name ilike ?', "%#{query}%"
+               Institution.search query
              else
                Institution.all
              end

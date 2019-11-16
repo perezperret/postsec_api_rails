@@ -1,6 +1,6 @@
 # PostsecAPI
 
-This is a new version of an old project I built using Crystal and Lucky, I decided to port it to Rails because it started failing on Heroku and it was more practical for me to move it than to upgrading again.
+This is a new version of an old project I built using Crystal and Lucky, I decided to port it to Rails because it started failing on Heroku and it was more practical for me to move it than to upgrade it.
 
 This is a proof of concept for an API to search accredited post secondary institutions in the US. I once needed this for a project and thought it would work well as a standalone API.
 
